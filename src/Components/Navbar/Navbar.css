@@ -1,0 +1,42 @@
+.wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.name{
+    font-size: 1.3rem;
+}
+.Right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.list {
+    flex: 10;
+}
+.list ul{
+    display: flex;
+    cursor: pointer;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+.list ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.list ul li:hover{
+    color: var(--orange);
+}
+.n-button{
+    flex: 2;
+}
+
